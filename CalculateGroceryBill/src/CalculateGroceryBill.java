@@ -53,7 +53,8 @@ public class CalculateGroceryBill {
 		//output totals and average with and without coupon
 		
 		System.out.printf("Monthly total: $%.2f  Weekly average: $%.2f\n", monthTotal, weekAverage);
-        System.out.printf("Monthly total with coupon: $%.2f  Weekly average with coupon: $%.2f\n", 
+       
+		System.out.printf("Monthly total with coupon: $%.2f  Weekly average with coupon: $%.2f\n", 
                           monthTotal * (1 - couponPercentage), weekAverage * (1 - couponPercentage));
         
         //Close scanner because i saw error in the problems section 
